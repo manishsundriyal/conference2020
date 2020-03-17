@@ -78,7 +78,7 @@
 
 		//smoothscroll
 		$('.menu-item').on('click', function (e) {
-			e.preventDefault();
+			// e.preventDefault();
 			var athis = this;
 			var target = this.hash,
 				menu = target;

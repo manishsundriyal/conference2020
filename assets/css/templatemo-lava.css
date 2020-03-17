@@ -1399,3 +1399,58 @@ Timeline
   margin: 0 auto;
   color: #000000;
 }
+
+/* 
+----------------------------------
+end of timeline
+----------------------------------
+*/
+
+/* 
+----------------------------------
+start of registration
+----------------------------------
+*/
+
+.registration-heading {
+  text-align: center;
+  width: 100%;
+  color: rgb(252, 252, 252);
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #000000;
+}
+
+.registration-description{
+  color: #000000;
+  text-align: justify;
+}
+
+.registration-table {
+  margin-top: 40px;
+}
+
+.table thead {
+  background: linear-gradient(145deg, rgba(244, 129, 63, 1) 0%, rgba(241, 85, 106, 1) 100%);
+}
+
+.table tbody tr td:last-child {
+  font-weight: bold;
+}
+
+.advisory-table tbody tr td {
+  font-weight: bold;
+}
+
+.active {
+  color: #fba70b!important;
+}
+
+/* 
+----------------------------------
+end of registration
+----------------------------------
+*/
