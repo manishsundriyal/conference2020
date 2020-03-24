@@ -290,9 +290,9 @@ header
 .header-area .main-nav .nav {
   float: left;
   margin-top: 27px;
-  margin-left: 7%;
+  margin-left: 4%;
   margin-right: 0px;
-  background-color: #fff;
+  /* background-color: #fff; */
   padding: 0px 20px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -658,13 +658,12 @@ welcome
   transform: perspective(1px) translateY(-30%) !important;
 }
 
-.welcome-area .header-text h1 {
-  font-weight: 900;
-  font-size: 52px;
-  line-height: 80px;
-  letter-spacing: 1px;
-  margin-bottom: 30px;
+.welcome-area .header-text span {
+  font-weight: 600;
+  font-size: 3.5em;
+  padding-bottom: 122px;
   color: #ffffff;
+  margin-left: 1em;
 }
 
 .welcome-area .header-text h3 {
@@ -1466,7 +1465,6 @@ start of count timer
 
 .countTimer {
   display: flex;
-  justify-content: center;
   align-items: center;
   color: #252525;
   margin-top: 40px;
@@ -1538,3 +1536,7 @@ start of count timer
 end of count timer
 ----------------------------------
 */
+
+.img-responsive {
+  height: auto;
+}
