@@ -53,6 +53,7 @@
                             <li class="scroll-to-section"><a href="#about" class="menu-item">About</a></li>
                             <li class="scroll-to-section"><a href="#dates" class="menu-item">Dates</a>
                             <li class="scroll-to-section"><a href="registration.html" class="menu-item">Registration</a></li>
+                            <li class="scroll-to-section"><a href="tracks.html" class="menu-item">Tracks</a></li>
                             <li class="scroll-to-section"><a href="committe.html" class="menu-item">Committee</a></li>
                             <!-- <li class="submenu">
                                 <a href="javascript:;">Drop Down</a>
@@ -79,13 +80,11 @@
 
     <!-- ***** Welcome Area Start ***** -->
     <div class="welcome-area" id="home">
-
         <!-- ***** Header Text Start ***** -->
         <div class="header-text">
             <div class="container">
                 <div class="row">
-                    <div class="left-text col-lg-6 col-md-12 col-sm-12 col-xs-12"
-                        data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="left-text col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <h1>DTU Tech. Conference <em>2020</em></h1>
                         <h3>05-07 December </h3>
                         <p class="highlight">
@@ -93,6 +92,12 @@
                         </p>
                         <br />
                         <a href="#about" class="main-button-slider">ABOUT US</a>
+                        <div class="countTimer">
+                            <div class="clockBox" id="day">00</div>
+                            <div class="clockBox" id="hour">00</div>
+                            <div class="clockBox" id="minute">00</div>
+                            <div class="clockBox" id="second">00</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -109,8 +114,6 @@
                     data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                     <div class="features-item">
                         <div class="features-icon">
-                            <h2>01</h2>
-                            <img src="assets/images/features-icon-1.png" alt="">
                             <h4>ABOUT EIEEEC- 2020</h4>
                             <p class="justify-text">
                                 EIEEEC-2020 aims to bring together researchers, scientists, engineers, scholars and
@@ -133,8 +136,6 @@
                     data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
                     <div class="features-item">
                         <div class="features-icon">
-                            <h2>02</h2>
-                            <img src="assets/images/features-icon-2.png" alt="">
                             <h4>Theme</h4>
                             <p class="justify-text">The theme of the conferences is ‘Power Electronic and Intelligent
                                 Control of Energy Systems for Tomorrow’.
@@ -155,8 +156,6 @@
                     data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
                     <div class="features-item">
                         <div class="features-icon">
-                            <h2>03</h2>
-                            <img src="assets/images/features-icon-3.png" alt="">
                             <h4>DTU</h4>
                             <p class="justify-text">
                                 Delhi Technological University (DTU), formerly known as the Delhi College of Engineering
@@ -278,6 +277,9 @@
 
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
+
+    <!-- Count Down Timer -->
+    <script src="assets/js/countDownTimer.js"></script>
 
 </body>
 

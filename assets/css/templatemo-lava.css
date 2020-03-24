@@ -290,7 +290,7 @@ header
 .header-area .main-nav .nav {
   float: left;
   margin-top: 27px;
-  margin-left: 15%;
+  margin-left: 7%;
   margin-right: 0px;
   background-color: #fff;
   padding: 0px 20px;
@@ -709,7 +709,7 @@ welcome
   }
   .welcome-area .header-text {
     width: 92%;
-    padding-top: 793px;
+    padding-top: 15%;
   }
   .welcome-area .header-text .left-text {
     margin-top: 5%;
@@ -1412,7 +1412,7 @@ start of registration
 ----------------------------------
 */
 
-.registration-heading {
+.center-heading {
   text-align: center;
   width: 100%;
   color: rgb(252, 252, 252);
@@ -1424,7 +1424,7 @@ start of registration
   color: #000000;
 }
 
-.registration-description{
+.description{
   color: #000000;
   text-align: justify;
 }
@@ -1437,7 +1437,10 @@ start of registration
   background: linear-gradient(145deg, rgba(244, 129, 63, 1) 0%, rgba(241, 85, 106, 1) 100%);
 }
 
-.table tbody tr td:last-child {
+.advisory-table tbody tr td:last-child {
+  font-weight: bold;
+}
+.committe-table tbody tr td:last-child {
   font-weight: bold;
 }
 
@@ -1452,5 +1455,86 @@ start of registration
 /* 
 ----------------------------------
 end of registration
+----------------------------------
+*/
+
+/* 
+----------------------------------
+start of count timer
+----------------------------------
+*/
+
+.countTimer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #252525;
+  margin-top: 40px;
+  opacity: 0;
+  -moz-animation: cssAnimation 1s;
+  /* Firefox */
+  -webkit-animation: cssAnimation 1s;
+  /* Safari and Chrome */
+  -o-animation: cssAnimation 1s;
+  /* Opera */
+  animation: cssAnimation 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+  99% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+@-webkit-keyframes cssAnimation {
+  99% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+.countTimer .clockBox {
+  width: 10vw;
+  height: 6vw;
+  margin-right: 3vw;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-size: 2vw;
+  padding: 0.5vw 1vw;
+}
+.countTimer .clockBox::after {
+  content: 'Days';
+  width: 100%;
+  background-color: #f4c150;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: .5vw 0;
+  font-size: 1.2vw;
+}
+.countTimer .clockBox:nth-child(2)::after {
+  content: 'Hours';
+}
+.countTimer .clockBox:nth-child(3)::after {
+  content: 'Minutes';
+}
+.countTimer .clockBox:nth-child(4)::after {
+  content: 'Seconds';
+}
+.countTimer .clockBox:nth-child(4) {
+  margin-right: 0;
+}
+
+/* 
+----------------------------------
+end of count timer
 ----------------------------------
 */
