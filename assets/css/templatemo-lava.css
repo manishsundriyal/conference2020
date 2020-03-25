@@ -118,12 +118,12 @@ html, body {
 }
 
 ::selection {
-  background: #f1556a;
+  background: #0d1a32;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #f1556a;
+  background: #0d1a32;
   color: #fff;
 }
 
@@ -147,7 +147,7 @@ a.main-button-slider {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #fba70b;
+  background-color: #f4c150;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -159,14 +159,14 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #f1556a;
+  background-color: #0d1a32;
 }
 
 a.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #f4813f;
+  background-color: #2a5298;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -178,7 +178,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #f1556a;
+  background-color: #0d1a32;
 }
 
 button.main-button {
@@ -188,7 +188,7 @@ button.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #f4813f;
+  background-color: #2a5298;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -200,7 +200,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #f1556a;
+  background-color: #0d1a32;
 }
 
 .center-heading {
@@ -218,7 +218,7 @@ button.main-button:hover {
 
 .center-heading h2 em {
   font-style: normal;
-  color: #f4813f;
+  color: #2a5298;
 }
 
 .center-heading p {
@@ -244,15 +244,15 @@ header
 }
 
 .background-header .logo, .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: #2a5298!important;
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fba70b!important;
+  color: #2a5298!important;
 }
 
 .background-header .nav li a.active {
-  color: #fba70b!important;
+  color: #f4c150!important;
 }
 
 .header-area {
@@ -271,6 +271,10 @@ header
 .header-area .main-nav {
   min-height: 80px;
   background: transparent;
+}
+
+.header-area .main-nav .non-main {
+  color: #2a5298 !important;
 }
 
 .header-area .main-nav .logo {
@@ -315,7 +319,7 @@ header
   display: block;
   font-weight: 500;
   font-size: 13px;
-  color: #7a7a7a;
+  color: #ffffff;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -327,8 +331,12 @@ header
   letter-spacing: 1px;
 }
 
+.header-area .main-nav .nav li .non-main {
+  color: #2a5298;
+}
+
 .header-area .main-nav .nav li:hover a {
-  color: #fba70b;
+  color: #f4c150;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -393,12 +401,12 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background: #fba70b;
+  background: #2a5298;
 }
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #fba70b!important;
+  color: #2a5298!important;
   padding-left: 25px;
 }
 
@@ -525,7 +533,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fba70b;
+  color: #2a5298;
 }
 
 @media (max-width: 1200px) {
@@ -593,7 +601,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #fba70b!important;
+    color: #2a5298!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -644,7 +652,7 @@ welcome
   width: 100%;
   height: 100vh;
   min-height: 793px;
-  background-image: url(../images/nasa-outer.jpg);
+  /* background-image: url(../images/nasa-outer.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -672,7 +680,7 @@ welcome
 
 .welcome-area .header-text h1 em {
   font-style: normal;
-  color: #fba70b;
+  color: #2a5298;
 }
 
 .welcome-area .header-text p {
@@ -864,7 +872,7 @@ testimonials
 
 #testimonials .item .testimonial-content {
   background: rgb(244, 129, 63);
-  background: linear-gradient(145deg, rgba(244, 129, 63, 1) 0%, rgba(241, 85, 106, 1) 100%);
+  background: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
   margin-left: 60px;
   padding: 40px 30px;
   text-align: center;
@@ -918,7 +926,7 @@ testimonials
   text-align: center;
   display: inline-block;
   background: rgb(244, 129, 63);
-  background: linear-gradient(145deg, rgba(244, 129, 63, 1) 0%, rgba(241, 85, 106, 1) 100%);
+  background: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
   position: absolute;
 }
 
@@ -935,7 +943,7 @@ testimonials
   text-align: center;
   display: inline-block;
   background: rgb(244, 129, 63);
-  background: linear-gradient(145deg, rgba(244, 129, 63, 1) 0%, rgba(241, 85, 106, 1) 100%);
+  background: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
   position: absolute;
 }
 
@@ -970,7 +978,7 @@ footer
 footer {
   margin-top: 200px;
   padding-top: 20px;
-  background: linear-gradient(145deg, rgba(244, 129, 63, 1) 0%, rgba(241, 85, 106, 1) 100%);
+  background: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
   width: 100%;
 }
 
@@ -1051,7 +1059,7 @@ footer .right-content {
 
 .footer-content .right-content h2 em {
   font-style: normal;
-  color: #fba70b;
+  color: #2a5298;
 }
 
 .footer-content .right-content p {
@@ -1098,8 +1106,8 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #fba70b;
-  border-color: #fba70b;
+  background-color: #2a5298;
+  border-color: #2a5298;
   color: #fff;
 }
 
@@ -1133,6 +1141,10 @@ footer .sub-footer p {
   letter-spacing: 0.5px;
 }
 
+footer h1 {
+  color: #ffffff;
+}
+
 @media (max-width: 991px) {
   footer .copyright {
     text-align: center;
@@ -1162,7 +1174,7 @@ preloader
 
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(145deg, #f4813f 0%, #f1556a 100%);
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
   left: 0;
   right: 0;
   top: 0;
@@ -1259,7 +1271,7 @@ Timeline
   content: '';
   position: absolute;
   width: 6px;
-  background-color: #fba70b;
+  background-color: #2a5298;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -1284,7 +1296,7 @@ Timeline
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid #FF9F55;
+  border: 4px solid #2a5298;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -1313,9 +1325,9 @@ Timeline
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #FF9F55;
+  border: medium solid #2a5298;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #FF9F55;
+  border-color: transparent transparent transparent #2a5298;
 }
 
 /* Add arrows to the right timeline-container (pointing left) */
@@ -1328,9 +1340,9 @@ Timeline
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #FF9F55;
+  border: medium solid #2a5298;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #FF9F55 transparent transparent;
+  border-color: transparent #2a5298 transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -1343,15 +1355,20 @@ Timeline
 
 .content {
   padding: 20px;
-  background: linear-gradient(145deg, rgba(244, 129, 63, 1) 0%, rgba(241, 85, 106, 1) 100%);
+  background: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
   position: relative;
   border-radius: 6px;
   display: inline-block;
 }
 
 .content p {
-  color: #000000;
+  color: #ffffff;
 }
+
+.content h4 {
+  color: #ffffff;
+}
+
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 
@@ -1369,9 +1386,9 @@ Timeline
   /* Make sure that all arrows are pointing leftwards */
   .timeline-container::before {
     left: 60px;
-    border: medium solid #FF9F55;
+    border: medium solid #2a5298;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #FF9F55 transparent transparent;
+    border-color: transparent #2a5298 transparent transparent;
   }
   /* Make sure all circles are at the same spot */
   .timeline-left::after, .timeline-right::after {
@@ -1387,16 +1404,15 @@ Timeline
 }
 
 .timeline-heading {
-  background: linear-gradient(145deg, rgba(244, 129, 63, 1) 0%, rgba(241, 85, 106, 1) 100%);
+  background: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
   text-align: center;
   width: 70%;
-  color: rgb(252, 252, 252);
   min-height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  color: #000000;
+  color: #ffffff;
 }
 
 /* 
@@ -1433,7 +1449,7 @@ start of registration
 }
 
 .table thead {
-  background: linear-gradient(145deg, rgba(244, 129, 63, 1) 0%, rgba(241, 85, 106, 1) 100%);
+  background: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
 }
 
 .advisory-table tbody tr td:last-child {
@@ -1448,7 +1464,7 @@ start of registration
 }
 
 .active {
-  color: #fba70b!important;
+  color: #f4c150!important;
 }
 
 /* 
