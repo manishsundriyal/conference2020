@@ -799,7 +799,7 @@ promotion
 */
 
 .left-image-decor {
-  background-image: url(../images/left-bg-decor.png);
+  background-image: url(../images/left.png);
   background-repeat: no-repeat;
   position: absolute;
   width: 100%;
@@ -850,7 +850,7 @@ testimonials
 */
 
 .right-image-decor {
-  background-image: url(../images/right-bg-decor.png);
+  background-image: url(../images/right.png);
   background-repeat: no-repeat;
   background-position: right center;
   position: absolute;
@@ -1450,6 +1450,7 @@ start of registration
 
 .table thead {
   background: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  color: #ffffff;
 }
 
 .advisory-table tbody tr td:last-child {
