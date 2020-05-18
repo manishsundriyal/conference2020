@@ -278,6 +278,7 @@ header
 }
 
 .header-area .main-nav .logo {
+  margin-left: 35px;
   line-height: 80px;
   color: #ffffff;
   font-size: 28px;
@@ -1557,3 +1558,4 @@ end of count timer
 .img-responsive {
   height: auto;
 }
+
